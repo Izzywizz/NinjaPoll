@@ -11,7 +11,7 @@ import UIKit
 
 struct ViewHelper {
     
-    static func roundUIView(_ views: [UIView]) {
+    static func roundUIView(_ views: [UIView], with colour: UIColor? = nil) {
         
         for view in views {
             view.layer.borderWidth = 1.0

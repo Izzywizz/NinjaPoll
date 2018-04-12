@@ -61,6 +61,7 @@
 		57AF9EC5207F537900358D74 /* Amaranth-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amaranth-Italic.ttf"; sourceTree = "<group>"; };
 		57AF9EC6207F537900358D74 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		57AF9EC7207F537900358D74 /* Amaranth-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amaranth-Regular.ttf"; sourceTree = "<group>"; };
+		57D4885C207FA09400CFA0C8 /* NinjaPoll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NinjaPoll.entitlements; sourceTree = "<group>"; };
 		C73AE2B1701BEE996516F3FE /* Pods-NinjaPoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaPoll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll.debug.xcconfig"; sourceTree = "<group>"; };
 		D38BA323F510FCDE392BD705 /* Pods_NinjaPoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinjaPoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED123F838423D5A4C5BE31E4 /* Pods-NinjaPoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaPoll.release.xcconfig"; path = "Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +136,7 @@
 		578FA5E8207E0925006F1624 /* NinjaPoll */ = {
 			isa = PBXGroup;
 			children = (
+				57D4885C207FA09400CFA0C8 /* NinjaPoll.entitlements */,
 				5765FC47207F90EF00D2204D /* Helper */,
 				57AF9EC1207F537000358D74 /* Fonts */,
 				578FA5E9207E0925006F1624 /* AppDelegate.swift */,
@@ -213,6 +215,11 @@
 				TargetAttributes = {
 					578FA5E5207E0925006F1624 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -474,6 +481,7 @@
 			baseConfigurationReference = C73AE2B1701BEE996516F3FE /* Pods-NinjaPoll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NinjaPoll/NinjaPoll.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZ2738TJ98;
 				INFOPLIST_FILE = NinjaPoll/Info.plist;
@@ -494,6 +502,7 @@
 			baseConfigurationReference = ED123F838423D5A4C5BE31E4 /* Pods-NinjaPoll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NinjaPoll/NinjaPoll.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZ2738TJ98;
 				INFOPLIST_FILE = NinjaPoll/Info.plist;
