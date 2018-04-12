@@ -10,21 +10,31 @@
 		18F84E05A5C84514C1F416DF /* Pods_NinjaPoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38BA323F510FCDE392BD705 /* Pods_NinjaPoll.framework */; };
 		5758D4B8207F4E64008402E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5758D4B7207F4E64008402E7 /* GoogleService-Info.plist */; };
 		578FA5EA207E0925006F1624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FA5E9207E0925006F1624 /* AppDelegate.swift */; };
-		578FA5EC207E0925006F1624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FA5EB207E0925006F1624 /* ViewController.swift */; };
+		578FA5EC207E0925006F1624 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FA5EB207E0925006F1624 /* SignInViewController.swift */; };
 		578FA5EF207E0925006F1624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578FA5ED207E0925006F1624 /* Main.storyboard */; };
 		578FA5F1207E0927006F1624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578FA5F0207E0927006F1624 /* Assets.xcassets */; };
 		578FA5F4207E0927006F1624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578FA5F2207E0927006F1624 /* LaunchScreen.storyboard */; };
+		57AF9EC8207F537900358D74 /* Amaranth-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57AF9EC3207F537900358D74 /* Amaranth-BoldItalic.ttf */; };
+		57AF9EC9207F537900358D74 /* Amaranth-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57AF9EC4207F537900358D74 /* Amaranth-Bold.ttf */; };
+		57AF9ECA207F537900358D74 /* Amaranth-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57AF9EC5207F537900358D74 /* Amaranth-Italic.ttf */; };
+		57AF9ECB207F537900358D74 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57AF9EC6207F537900358D74 /* OFL.txt */; };
+		57AF9ECC207F537900358D74 /* Amaranth-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57AF9EC7207F537900358D74 /* Amaranth-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5758D4B7207F4E64008402E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		578FA5E6207E0925006F1624 /* NinjaPoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaPoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578FA5E9207E0925006F1624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		578FA5EB207E0925006F1624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		578FA5EB207E0925006F1624 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		578FA5EE207E0925006F1624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		578FA5F0207E0927006F1624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578FA5F3207E0927006F1624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578FA5F5207E0927006F1624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57AF9EC3207F537900358D74 /* Amaranth-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amaranth-BoldItalic.ttf"; sourceTree = "<group>"; };
+		57AF9EC4207F537900358D74 /* Amaranth-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amaranth-Bold.ttf"; sourceTree = "<group>"; };
+		57AF9EC5207F537900358D74 /* Amaranth-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amaranth-Italic.ttf"; sourceTree = "<group>"; };
+		57AF9EC6207F537900358D74 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		57AF9EC7207F537900358D74 /* Amaranth-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amaranth-Regular.ttf"; sourceTree = "<group>"; };
 		C73AE2B1701BEE996516F3FE /* Pods-NinjaPoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaPoll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll.debug.xcconfig"; sourceTree = "<group>"; };
 		D38BA323F510FCDE392BD705 /* Pods_NinjaPoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinjaPoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED123F838423D5A4C5BE31E4 /* Pods-NinjaPoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaPoll.release.xcconfig"; path = "Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,8 +81,9 @@
 		578FA5E8207E0925006F1624 /* NinjaPoll */ = {
 			isa = PBXGroup;
 			children = (
+				57AF9EC1207F537000358D74 /* Fonts */,
 				578FA5E9207E0925006F1624 /* AppDelegate.swift */,
-				578FA5EB207E0925006F1624 /* ViewController.swift */,
+				578FA5EB207E0925006F1624 /* SignInViewController.swift */,
 				578FA5ED207E0925006F1624 /* Main.storyboard */,
 				578FA5F0207E0927006F1624 /* Assets.xcassets */,
 				578FA5F2207E0927006F1624 /* LaunchScreen.storyboard */,
@@ -80,6 +91,26 @@
 				5758D4B7207F4E64008402E7 /* GoogleService-Info.plist */,
 			);
 			path = NinjaPoll;
+			sourceTree = "<group>";
+		};
+		57AF9EC1207F537000358D74 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				57AF9EC2207F537900358D74 /* Amaranth */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		57AF9EC2207F537900358D74 /* Amaranth */ = {
+			isa = PBXGroup;
+			children = (
+				57AF9EC3207F537900358D74 /* Amaranth-BoldItalic.ttf */,
+				57AF9EC4207F537900358D74 /* Amaranth-Bold.ttf */,
+				57AF9EC5207F537900358D74 /* Amaranth-Italic.ttf */,
+				57AF9EC6207F537900358D74 /* OFL.txt */,
+				57AF9EC7207F537900358D74 /* Amaranth-Regular.ttf */,
+			);
+			path = Amaranth;
 			sourceTree = "<group>";
 		};
 		78DE77E5C1F7E1FC2002AD15 /* Pods */ = {
@@ -152,9 +183,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AF9EC8207F537900358D74 /* Amaranth-BoldItalic.ttf in Resources */,
+				57AF9ECC207F537900358D74 /* Amaranth-Regular.ttf in Resources */,
+				57AF9ECA207F537900358D74 /* Amaranth-Italic.ttf in Resources */,
 				578FA5F4207E0927006F1624 /* LaunchScreen.storyboard in Resources */,
 				5758D4B8207F4E64008402E7 /* GoogleService-Info.plist in Resources */,
+				57AF9EC9207F537900358D74 /* Amaranth-Bold.ttf in Resources */,
 				578FA5F1207E0927006F1624 /* Assets.xcassets in Resources */,
+				57AF9ECB207F537900358D74 /* OFL.txt in Resources */,
 				578FA5EF207E0925006F1624 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,11 +238,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -222,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578FA5EC207E0925006F1624 /* ViewController.swift in Sources */,
+				578FA5EC207E0925006F1624 /* SignInViewController.swift in Sources */,
 				578FA5EA207E0925006F1624 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +410,10 @@
 				DEVELOPMENT_TEAM = VZ2738TJ98;
 				INFOPLIST_FILE = NinjaPoll/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.izzyali.NinjaPoll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -389,7 +430,10 @@
 				DEVELOPMENT_TEAM = VZ2738TJ98;
 				INFOPLIST_FILE = NinjaPoll/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.izzyali.NinjaPoll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

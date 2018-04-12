@@ -7,5 +7,6 @@ target 'NinjaPoll' do
 
   # Pods for NinjaPoll
   pod 'Firebase/Core'
-
+  pod 'Firebase/Auth'
+  
 end
