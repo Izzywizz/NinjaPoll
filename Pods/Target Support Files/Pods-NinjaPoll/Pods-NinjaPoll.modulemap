@@ -1,0 +1,6 @@
+framework module Pods_NinjaPoll {
+  umbrella header "Pods-NinjaPoll-umbrella.h"
+
+  export *
+  module * { export * }
+}

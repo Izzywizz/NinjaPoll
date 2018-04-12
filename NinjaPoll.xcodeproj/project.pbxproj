@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18F84E05A5C84514C1F416DF /* Pods_NinjaPoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38BA323F510FCDE392BD705 /* Pods_NinjaPoll.framework */; };
+		5758D4B8207F4E64008402E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5758D4B7207F4E64008402E7 /* GoogleService-Info.plist */; };
 		578FA5EA207E0925006F1624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FA5E9207E0925006F1624 /* AppDelegate.swift */; };
 		578FA5EC207E0925006F1624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FA5EB207E0925006F1624 /* ViewController.swift */; };
 		578FA5EF207E0925006F1624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578FA5ED207E0925006F1624 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5758D4B7207F4E64008402E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		578FA5E6207E0925006F1624 /* NinjaPoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaPoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578FA5E9207E0925006F1624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578FA5EB207E0925006F1624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		578FA5F0207E0927006F1624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578FA5F3207E0927006F1624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578FA5F5207E0927006F1624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73AE2B1701BEE996516F3FE /* Pods-NinjaPoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaPoll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll.debug.xcconfig"; sourceTree = "<group>"; };
+		D38BA323F510FCDE392BD705 /* Pods_NinjaPoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinjaPoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED123F838423D5A4C5BE31E4 /* Pods-NinjaPoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaPoll.release.xcconfig"; path = "Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F84E05A5C84514C1F416DF /* Pods_NinjaPoll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F0A5941CF05DF29D9875124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D38BA323F510FCDE392BD705 /* Pods_NinjaPoll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		578FA5DD207E0925006F1624 = {
 			isa = PBXGroup;
 			children = (
 				578FA5E8207E0925006F1624 /* NinjaPoll */,
 				578FA5E7207E0925006F1624 /* Products */,
+				78DE77E5C1F7E1FC2002AD15 /* Pods */,
+				2F0A5941CF05DF29D9875124 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +77,18 @@
 				578FA5F0207E0927006F1624 /* Assets.xcassets */,
 				578FA5F2207E0927006F1624 /* LaunchScreen.storyboard */,
 				578FA5F5207E0927006F1624 /* Info.plist */,
+				5758D4B7207F4E64008402E7 /* GoogleService-Info.plist */,
 			);
 			path = NinjaPoll;
+			sourceTree = "<group>";
+		};
+		78DE77E5C1F7E1FC2002AD15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C73AE2B1701BEE996516F3FE /* Pods-NinjaPoll.debug.xcconfig */,
+				ED123F838423D5A4C5BE31E4 /* Pods-NinjaPoll.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578FA5F8207E0927006F1624 /* Build configuration list for PBXNativeTarget "NinjaPoll" */;
 			buildPhases = (
+				3C45045A88ACC8E529BFECD6 /* [CP] Check Pods Manifest.lock */,
 				578FA5E2207E0925006F1624 /* Sources */,
 				578FA5E3207E0925006F1624 /* Frameworks */,
 				578FA5E4207E0925006F1624 /* Resources */,
+				B57DC3379ACA163DEFF23C5D /* [CP] Embed Pods Frameworks */,
+				2FC7990A24C997379660FBF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +153,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				578FA5F4207E0927006F1624 /* LaunchScreen.storyboard in Resources */,
+				5758D4B8207F4E64008402E7 /* GoogleService-Info.plist in Resources */,
 				578FA5F1207E0927006F1624 /* Assets.xcassets in Resources */,
 				578FA5EF207E0925006F1624 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FC7990A24C997379660FBF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C45045A88ACC8E529BFECD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinjaPoll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57DC3379ACA163DEFF23C5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NinjaPoll/Pods-NinjaPoll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		578FA5E2207E0925006F1624 /* Sources */ = {
@@ -278,16 +365,14 @@
 		};
 		578FA5F9207E0927006F1624 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73AE2B1701BEE996516F3FE /* Pods-NinjaPoll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZ2738TJ98;
 				INFOPLIST_FILE = NinjaPoll/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.izzyali.NinjaPoll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -297,16 +382,14 @@
 		};
 		578FA5FA207E0927006F1624 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED123F838423D5A4C5BE31E4 /* Pods-NinjaPoll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZ2738TJ98;
 				INFOPLIST_FILE = NinjaPoll/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.izzyali.NinjaPoll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
