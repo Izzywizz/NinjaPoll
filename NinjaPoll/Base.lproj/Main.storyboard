@@ -22,16 +22,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ncD-jK-S2G">
-                                <rect key="frame" x="87" y="62" width="308" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ncD-jK-S2G">
+                                <rect key="frame" x="77" y="80" width="220" height="61"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2OE-XO-FDh">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconAltSm" translatesAutoresizingMaskIntoConstraints="NO" id="2OE-XO-FDh">
+                                        <rect key="frame" x="0.0" y="0.0" width="74" height="61"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="NinjaPoll" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="je2-HV-mzP">
-                                        <rect key="frame" x="240" y="0.0" width="68" height="128"/>
-                                        <fontDescription key="fontDescription" name="Amaranth-Bold" family="Amaranth" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NinjaPoll" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="je2-HV-mzP">
+                                        <rect key="frame" x="76" y="8.5" width="144" height="44"/>
+                                        <fontDescription key="fontDescription" name="Amaranth-Bold" family="Amaranth" pointSize="36"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -39,6 +38,10 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ncD-jK-S2G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RjF-Vs-rKa"/>
+                            <constraint firstItem="ncD-jK-S2G" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="szh-fR-fP7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -46,4 +49,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="IconAltSm" width="74" height="61"/>
+    </resources>
 </document>
