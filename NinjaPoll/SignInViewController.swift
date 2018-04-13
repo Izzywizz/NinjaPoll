@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class SignInViewController: UITableViewController {
 
     @IBOutlet weak var emailAddressView: UIView!
     @IBOutlet weak var passwordView: UIView!
@@ -17,11 +17,13 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var forgotButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signUpNowButton: UIButton!
+    @IBOutlet weak var footerView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         ViewHelper.setColourFor([emailAddressView, passwordView])
         ViewHelper.setRoundedCorners([emailAddressView, passwordView, loginButton, signUpNowButton])
+        ViewHelper.attach(footerView: footerView, toTheBottomOf: tableView, using: view)
     }
 
     //MARK:- Actions
@@ -47,7 +49,7 @@ extension SignInViewController: UITextFieldDelegate {
     /// However this is only possile if you set tag on storyboard and be-careful that the right amount of superview property chaining is correct.
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         let nextTag: Int = textField.tag + 1
-        let nextResponder: UIResponder? = textField.superview?.superview?.superview?.viewWithTag(nextTag)
+        let nextResponder: UIResponder? = textField.superview?.superview?.superview?.superview?.viewWithTag(nextTag)
         
         if let nextR = nextResponder {  // Found next responder, so set it.
             nextR.becomeFirstResponder()
