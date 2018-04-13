@@ -23,11 +23,28 @@ struct ViewHelper {
             view.layer.borderColor = colour?.cgColor
         }
     }
-    
+
+    /// Allows you to create rounded edges of the uiview, the border radius default value = 8.0
     static func setRoundedCorners(_ views: [UIView]) {
         
         for view in views {
-            
+            view.layer.cornerRadius = 7.0
         }
     }
+    
+    /**
+     This method helps attach a button(or any uiView assest that is placed inside the footerView on the mainStoryboard with appropiate constraints) to the bottom of a tableView. It ensures that whatever is inside the footerView is always attached to the bottom of the tableView. It takes the full size of the tableView height and content size of the scroll view (ie the cells and total scroll area) and the height of the footerView to ensure it has the approapite size for each device.
+     - parameter footerView: footer uiView that must have IBout of the view
+     - parameter tableView: tableView that has the cells inside
+     - parameter view: the main view in which the tableView is house
+     */
+    static func attach(footerView: UIView, toTheBottomOf tableView: UITableView, using view: UIView) {
+        tableView.tableFooterView = nil
+        footerView.frame = CGRect(x: 0, y: 0,
+                                  width: view.frame.size.width,
+                                  height: (tableView.frame.size.height - tableView.contentSize.height - footerView.frame.size.height))
+        
+        tableView.tableFooterView = footerView
+    }
+    
 }

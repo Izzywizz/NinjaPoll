@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18F84E05A5C84514C1F416DF /* Pods_NinjaPoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38BA323F510FCDE392BD705 /* Pods_NinjaPoll.framework */; };
+		575030C02080E0140091025B /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575030BF2080E0140091025B /* UITextField+Extensions.swift */; };
 		5758D4B8207F4E64008402E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5758D4B7207F4E64008402E7 /* GoogleService-Info.plist */; };
 		5765FC3A207F8EBA00D2204D /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5765FC2D207F8EBA00D2204D /* SourceSansPro-BlackItalic.ttf */; };
 		5765FC3B207F8EBA00D2204D /* SourceSansPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5765FC2E207F8EBA00D2204D /* SourceSansPro-SemiBoldItalic.ttf */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		575030BF2080E0140091025B /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		5758D4B7207F4E64008402E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5765FC2D207F8EBA00D2204D /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
 		5765FC2E207F8EBA00D2204D /* SourceSansPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		575030BE2080DFE70091025B /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				575030BF2080E0140091025B /* UITextField+Extensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		5765FC2C207F8EBA00D2204D /* Source_Sans_Pro */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +146,7 @@
 		578FA5E8207E0925006F1624 /* NinjaPoll */ = {
 			isa = PBXGroup;
 			children = (
+				575030BE2080DFE70091025B /* extensions */,
 				57D4885C207FA09400CFA0C8 /* NinjaPoll.entitlements */,
 				5765FC47207F90EF00D2204D /* Helper */,
 				57AF9EC1207F537000358D74 /* Fonts */,
@@ -335,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				578FA5EC207E0925006F1624 /* SignInViewController.swift in Sources */,
+				575030C02080E0140091025B /* UITextField+Extensions.swift in Sources */,
 				5765FC49207F90FE00D2204D /* ViewHelper.swift in Sources */,
 				578FA5EA207E0925006F1624 /* AppDelegate.swift in Sources */,
 			);
