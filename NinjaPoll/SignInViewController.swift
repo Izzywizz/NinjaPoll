@@ -11,18 +11,19 @@ import UIKit
 class SignInViewController: UIViewController {
 
     @IBOutlet weak var emailAddressView: UIView!
+    @IBOutlet weak var passwordView: UIView!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var forgotButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        ViewHelper.roundUIView([emailAddressView])
+        ViewHelper.setColourFor([emailAddressView, passwordView])
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK:- Actions
+    @IBAction func forgotPassword(_ sender: UIButton) {
+        print("Forgot Password Button Pressed!")
     }
-
-
 }
 

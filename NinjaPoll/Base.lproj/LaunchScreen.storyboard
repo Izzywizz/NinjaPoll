@@ -22,13 +22,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="3hF-4M-Rs1">
-                                <rect key="frame" x="77" y="80" width="220" height="61"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="CfO-NM-pzD">
+                                <rect key="frame" x="77.5" y="80" width="220" height="61"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconAltSm" translatesAutoresizingMaskIntoConstraints="NO" id="W7w-7Z-g1w">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconAltSm" translatesAutoresizingMaskIntoConstraints="NO" id="3a6-Af-TmN">
                                         <rect key="frame" x="0.0" y="0.0" width="74" height="61"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NinjaPoll" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rcg-jK-tJR">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NinjaPoll" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yv1-GW-V4a">
                                         <rect key="frame" x="76" y="8.5" width="144" height="44"/>
                                         <fontDescription key="fontDescription" name="Amaranth-Bold" family="Amaranth" pointSize="36"/>
                                         <nil key="textColor"/>
@@ -39,8 +39,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="3hF-4M-Rs1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="4lm-yq-9fx"/>
-                            <constraint firstItem="3hF-4M-Rs1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PLs-XV-y39"/>
+                            <constraint firstItem="CfO-NM-pzD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TQ1-AL-QPv"/>
+                            <constraint firstItem="CfO-NM-pzD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="x3J-yk-jKj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
